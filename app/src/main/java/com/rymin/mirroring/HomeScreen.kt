@@ -5,7 +5,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material.icons.filled.Stop
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -124,7 +124,7 @@ fun HomeScreen(
                 )
             ) {
                 Icon(
-                    imageVector = if (uiState.isMirroring) Icons.Default.Stop else Icons.Default.PlayArrow,
+                    imageVector = if (uiState.isMirroring) Icons.Default.Close else Icons.Default.PlayArrow,
                     contentDescription = if (uiState.isMirroring) "Stop" else "Start",
                     modifier = Modifier.size(48.dp)
                 )

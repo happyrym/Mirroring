@@ -1,9 +1,9 @@
 package com.rymin.mirroring
 
 import android.content.Context
-import com.example.mirroring.data.repository.MirroringRepository
-import com.example.mirroring.data.repository.SettingsRepository
-import com.example.mirroring.data.service.MirroringService
+import com.rymin.mirroring.repository.MirroringRepository
+import com.rymin.mirroring.repository.SettingsRepository
+import com.rymin.mirroring.service.MirroringService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
